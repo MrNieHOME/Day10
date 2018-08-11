@@ -22,12 +22,7 @@ Audio::Audio(){
 }
 
 void Audio::prepare(){
-//    SimpleAudioEngine::getInstance()->preloadBackgroundMusic("Music/music.ogg");
-//    SimpleAudioEngine::getInstance()->preloadEffect("Music/readygo.ogg");
     SimpleAudioEngine::getInstance()->preloadEffect("Music/pop.ogg");
-//    SimpleAudioEngine::getInstance()->preloadEffect("Music/combo_1.ogg");
-//    SimpleAudioEngine::getInstance()->preloadEffect("Music/combo_2.ogg");
-//    SimpleAudioEngine::getInstance()->preloadEffect("Music/combo_3.ogg");
 }
 
 void Audio::playCombo(int size){
